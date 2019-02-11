@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "VK Editor",
+  "short_name": "VKE",
+  "version": "1.1",
+  "description" : "VK Editor - расширение для удаления аудиозаписей на сайте соц.сети Вконтакте",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "https://vk.com/*"
+  ],
+  "content_scripts": [{
+    "matches": ["https://vk.com/*"],
+    "js": ["content_script.js"],
+    "run_at": "document_end"
+  }],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "web_accessible_resources": ["script.js", "scroller.js", "popup.js", "content_script.js"],
+
+  "browser_action": {
+    "default_title": "VKEditor",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}

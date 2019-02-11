@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #F5F7F9;
+	padding:30px 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.artistLabel {
+	color:#3299DC;	
+	font-size: 18px;
+	font-weight: 500;
+	cursor:pointer;
+}
+
+.artistNameInput , .audioAmount {
+	font-size: 17px;
+	padding:5px;
+	outline:0;
+	border:2px solid #3299DC;
+	border-radius: 5px;	
+	background-color: #F9F9F9;
+}
+
+.artistNameInput:focus , .audioAmount:focus {
+	background-color: #fff;
+	transition: .3s all ease;
+}
+
+
+
+.beginBtn {
+	background-color: #3299DC;
+	color:#fff;
+	padding:14px 12px;
+	margin: 10px 0;
+	margin-bottom: 15px;
+	width:100%;
+	font-size: 16px;
+	border-radius: 5px;
+	outline:0;
+	border:0;
+	cursor:pointer;
+}
+
+.beginBtn:hover {
+	background-color: #2D87C4;
+	transition: .3s all ease;
+}
+
+#deleteAll {
+	background-color:#2182DC;
+	color:#fff;
+	padding:14px 12px;
+	margin: 10px 0;
+	margin-bottom: 15px;
+	width:100%;
+	font-size: 16px;
+	border-radius: 5px;
+	outline:0;
+	border:0;
+	cursor:pointer;
+}
+
+#deleteAll:hover {
+	background-color: #1F7BD1;
+	transition: .3s all ease;
+}
