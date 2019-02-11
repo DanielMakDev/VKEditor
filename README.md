@@ -1,1 +1,1 @@
-# VKEditor
+# VK Editor
